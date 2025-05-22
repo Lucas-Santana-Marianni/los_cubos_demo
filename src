@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Los Cubos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="attp.css">
+</head>
+<body>
+
+ <header>
+    <h1>Los Cubos</h1>
+    <nav>
+      <button onclick="abrirAba('inicio')" id="button"><mark style="background-color: rgb(255, 255, 255); border-radius: 0.2rem;">Início</mark></button>
+      <button onclick="abrirAba('sobre')" id="button"><mark style="background-color: rgb(255, 255, 255); border-radius: 0.2rem;">Sobre</mark></button>
+      <button onclick="abrirAba('servicos')" id="button"><mark style="background-color: rgb(255, 255, 255); border-radius: 0.2rem;">Serviços</mark></button>
+      <button onclick="abrirAba('contato')" id="button"><mark style="background-color: rgb(255, 255, 255); border-radius: 0.2rem;">Contato</mark></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="tab-content active">
+      <h2 id="in">Bem-vindo(a) à Los Cubos!</h2>
+      <p id="inp">Aqui nós buscamos mostrar um pouco sobre cubos mágicos! Caso tenha interesse em um deles, clique na imagem e compre!</p>
+      
+      <div class="container">
+       
+      <div class="cb1">
+      <a href="https://www.amazon.com.br/Mágico-3x3x3-Warrior-s-Profissional-Stickersless/dp/B087Y7JXS4" target="_blank">
+      <img src="https://cdn.glitch.global/5a001fd7-e43b-44d2-b2ec-4f56381b1393/b8ace011-15d6-4d54-86f0-527f6b65d391.image.png?v=1747780918038">
+      </a>
+      <h2>Cubo Profissional QYtoys Warrior 5</h2>
+      <p>O QYtoys Warrior 5 é um cubo mágico profissional de 3x3, conhecido pela sua qualidade, desempenho e facilidade de uso. É uma excelente opção para quem busca um desafio mais complexo e maior diversão na resolução do cubo. </p>
+      </div> 
+      
+      
+      <div class="cb2">
+      <a href="https://www.amazon.com.br/CUBER-Cubo-Mágico-Profissional-2x2/dp/B084C91FW6/ref=asc_df_B084C91FW6?mcid=8a4f94d0fca43ddeb3e86dc08277625c&tag=googleshopp00-20&linkCode=df0&hvadid=709885080475&hvpos=&hvnetw=g&hvrand=9695554706457775463&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9102227&hvtargid=pla-891810055679&language=pt_BR&gad_source=1&th=1" target="_blank">
+      <img src="https://cdn.glitch.global/5a001fd7-e43b-44d2-b2ec-4f56381b1393/8597781e-8555-4d7a-90cb-7452d790b185.image.png?v=1747842905240">
+      </a>
+      <h2>Cubo Mágico Sail W Qytoys</h2>
+      <p>O Sail W 3x3 da QYtoys é um cubo mágico muito popular entre iniciantes e também usado por speedcubers intermediários. Ele é conhecido por ser um cubo leve, com ótimo custo-benefício e fácil de controlar, o que o torna ideal para quem está começando no mundo do SpeedCube.</p>
+      </div>
+
+      <div class="cb3">
+      <a href="https://www.casasbahia.com.br/cubo-magico-megaminx-dodecaedro-12-lados-black-qiheng-qytoys/p/1560715342" target="_blank">
+      <img src="https://cdn.glitch.global/5a001fd7-e43b-44d2-b2ec-4f56381b1393/ed3176dd-45ce-41c5-aeb9-2cefed2d83df.image.png?v=1747848842498">
+      </a>
+      <h2>Cubo Mágico Megaminx Dodecaedro Qytoys</h2>
+      <p>O Megaminx Qiheng da QYtoys é um cubo mágico dodecaédrico (com 12 lados), ideal para quem já domina o tradicional 3x3 e quer encarar um novo desafio. Com excelente qualidade de construção, ele é um dos modelos mais procurados no mercado por seu desempenho suave e durabilidade.</p>
+      </div>
+
+      <div class="cb4">
+      <a href="https://www.amazon.com.br/Cubo-Mágico-Qiyi-2x2x2-Stickersless/dp/B087YK8JGH" target="_blank">
+      <img src="https://cdn.glitch.global/5a001fd7-e43b-44d2-b2ec-4f56381b1393/667f9da6-12e8-4f0b-9caf-695069274d7f.image.png?v=1747852993663">
+      </a>
+      <h2>Cubo Mágico Qytoys QiDi S</h2>
+      <p>O QiDi S da QYtoys é um cubo mágico 2x2x2 que se destaca pela sua excelente qualidade de construção e suavidade nos movimentos. Ele é uma ótima escolha para quem está começando no mundo dos cubos mágicos, mas também agrada quem já tem alguma experiência.</p>
+      </div>
+
+      <div class="cb5">
+      <a href="https://www.mercadolivre.com.br/cubo-magico-pirmide-pyraminx-carbon-speedcube-qytoys/p/MLB29166194" target="_blank">
+      <img src="https://cdn.glitch.global/5a001fd7-e43b-44d2-b2ec-4f56381b1393/635b018a-d250-448e-8d68-11ccc234d273.image.png?v=1747855261840">
+      </a>
+      <h2>Cubo Mágico Pyraminx Carbon Speedcube Qytoys</h2>
+      <p>O Pyraminx da QYtoys é um cubo mágico em formato de pirâmide, ideal para quem busca algo diferente além do tradicional cubo 3x3. Com movimentos suaves e excelente qualidade, ele é perfeito tanto para iniciantes quanto para speedcubers que desejam aprimorar suas habilidades em diferentes tipos de puzzles.</p>
+      </div>
+
+      </div> 
+      <br>
+      <br>
+       
+      <div class="apdz">
+        <div class="link">
+      <pre>    Quer aprender a resolver o seu primeiro cubo mágico?
+Clique no cubo abaixo e aprenda com o fundador da Cuber Brasil!</pre>
+      <a href="https://youtu.be/5Ohd4DtdUvo" target="_blank">
+       <img src="https://cdn.glitch.global/2bbb05ab-7388-48f0-b944-01e08915f935/a1ebfef4-65db-49f2-8988-9e2a160a703d.image.png?v=1747858965126">
+      </a>
+      </div>
+      </div>
+      
+    </section>
+
+    <section id="sobre" class="tab-content">
+      <h2>Sobre nós</h2>
+      <pre id="so">
+Na Los Cubos, somos movidos pela paixão pelos cubos mágicos e pelo que eles representam: desafios mentais, raciocínio lógico e pura diversão. 
+Nosso propósito é simples e claro: levar essa experiência para todos, desde os iniciantes curiosos até os speedcubers mais experientes.
+
+Fundamos a Los Cubos com a missão de:
+Popularizar o cubo mágico no Brasil e ajudar mais pessoas a desenvolverem suas habilidades com ele.
+
+
+
+
+
+O que nos guia?
+
+- Educação através da lógica e estratégia;
+
+- Estímulo à prática do speedcubing em todo o país;
+
+- Apoio à comunidade cubista com conteúdo, produtos e orientação.
+
+
+
+Produtos Selecionados!
+Cada cubo disponível em nossa loja é testado e escolhido com cuidado. Trabalhamos com marcas reconhecidas como QYtoys, QiYi, MoYu, entre outras... 
+sempre priorizando qualidade, inovação e acessibilidade.
+Buscamos oferecer modelos que atendam desde quem está começando até quem busca alto desempenho em campeonatos. 
+Inclusive, alguns dos cubos que oferecemos foram os que nos fizeram chegar até aqui!
+
+
+
+Aprenda com a Gente!
+Na Los Cubos, ensinar é tão importante quanto vender. 
+Por isso, disponibilizamos vídeos, tutoriais e dicas gratuitas, tudo em português, para ajudar você a resolver seu primeiro cubo (ou seu décimo!).
+
+Junte-se à comunidade da Los Cubos e descubra o universo mágico por trás de cada giro. Seu próximo desafio está a um clique de distância!
+</pre>
+    </section>
+
+    <section id="servicos" class="tab-content">
+      <h2>Serviços</h2>
+      <pre id="so">
+Na Los Cubos, oferecemos mais do que apenas cubos mágicos 
+oferecemos experiências que estimulam o raciocínio, a concentração e a diversão! Confira nossos principais serviços:
+
+- Venda de Cubos Mágicos
+Trabalhamos com uma grande variedade de modelos: 2x2, 3x3, Megaminx, Pyraminx, 
+cubos profissionais e muito mais, todos das melhores marcas do mercado.
+
+- Cursos e Tutoriais
+Quer aprender a montar seu primeiro cubo? Temos videoaulas, materiais didáticos e até aulas ao vivo para iniciantes e speedcubers.
+
+- Eventos e Competições
+Organizamos e apoiamos campeonatos, oficinas e encontros para entusiastas e competidores de cubo mágico.
+
+- Ajustes e Lubrificação
+Seu cubo está travando ou perdeu a suavidade? Oferecemos manutenção, lubrificação e ajustes para melhorar seu desempenho.
+
+- Kits Personalizados
+Montamos kits especiais para presentes, aniversários, escolas e eventos, com opções educativas e divertidas.
+
+</pre>
+    </section>
+
+    <section id="contato" class="tab-content" align="center">
+      <h2>Contato</h2>
+      <p>Caso queira tirar alguma duvida, entre em contato com a gente!!</p>
+      <form onsubmit="return validarFormulario()">
+        <input type="text" id="nome" placeholder="Nome" required><br><br>
+        <input type="email" id="email" placeholder="E-mail" required><br><br>
+        <textarea id="mensagem" placeholder="Mensagem" required maxlength="5000"></textarea><br><br>
+        <button id="submit" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Los Cubos - 2025 </p>
+  </footer>
+
+  <script>
+
+
+    function abrirAba(id) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      localStorage.setItem('abaAtiva', id);
+    }
+
+    function fecharAba(id) {
+      document.getElementById(id).classList.remove('active');
+    }
+
+    function validarFormulario() {
+      const nome = document.getElementById('nome').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const mensagem = document.getElementById('mensagem').value.trim();
+
+      if (!nome || !email || !mensagem) {
+        alert("Preencha todos os campos!");
+        return false;
+      }
+
+     alert("Mensagem enviada com sucesso!");
+     document.getElementById('nome').value = '';
+     document.getElementById('email').value = '';
+     document.getElementById('mensagem').value = '';
+     return false;
+    }
+
+    // Salva a posição do scroll antes de sair da página
+  window.addEventListener("beforeunload", () => {
+    localStorage.setItem("scrollY", window.scrollY);
+  });
+
+ window.addEventListener("load", () => {
+  // Restaura a aba ativa
+  const abaAtiva = localStorage.getItem("abaAtiva");
+  if (abaAtiva) {
+    abrirAba(abaAtiva);
+  } else {
+    abrirAba("inicio"); // padrão
+  }
+
+  const scrollY = localStorage.getItem("scrollY");
+  if (scrollY) {
+    window.scrollTo(0, parseInt(scrollY));
+    localStorage.removeItem("scrollY");
+  }
+  });
+  </script>
+
+</body>
+</html>
